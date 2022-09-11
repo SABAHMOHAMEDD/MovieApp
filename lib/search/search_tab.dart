@@ -5,8 +5,11 @@ class SearchTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.yellow,
+    return Scaffold(
+      backgroundColor: Colors.yellow,
+      appBar: AppBar(
+        title: Text(''),
+      ),
     );
   }
 }
