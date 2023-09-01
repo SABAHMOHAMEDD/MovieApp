@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.black,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Color(0xFFFFBB3B),
         currentIndex: selectedIndex,
         onTap: (index) {
           selectedIndex = index;
@@ -62,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      body: tabs[selectedIndex],
+      body: (tabs[selectedIndex]),
     );
   }
 
